@@ -1,0 +1,194 @@
+body {
+  background-color: hsl(35, 59%, 86%);
+  width: 1440px;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 720px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+main .image {
+  padding: 15px;
+}
+
+.image img {
+  width: 650px;
+  border-radius: 15px;
+}
+
+.main-header {
+  align-self: flex-start;
+  padding-left: 36px;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+}
+
+.main-description {
+  align-self: flex-start;
+  padding-left: 36px;
+}
+
+.main-description h2 {
+  font-family: 'outfit';
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  width: 650px;
+}
+
+.prep-section {
+  align-self: center;
+  width: 640px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.prep-section h3 {
+  font-family: 'outfit', serif;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  padding: 15px 15px 0 15px;
+}
+
+.prep-section li {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep-section p {
+  padding-left: 30px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 200;
+}
+
+.prep-section strong {
+  color: hsl(30, 10%, 34%);
+  font-weight: 900;
+}
+
+.ingredients-section {
+  padding: 15px;
+  align-self: flex-start;
+  margin-left: 26px;
+}
+
+.ingredients-section h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif', serif;
+}
+
+.ingredients-section li {
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-section p {
+  color: hsl(30, 10%, 34%);;
+  margin-left: 20px;
+}
+
+.ingredients-section hr {
+  width: 620px;
+  align-self: flex-start;
+  margin-left: -36px;
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+}
+
+.instructions-section {
+  padding: 15px;
+  align-self: flex-start;
+  margin-left: 26px;
+}
+
+.instructions-section h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif', serif;
+}
+
+.instructions-section li {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.instructions-section strong {
+  color: hsl(13, 9%, 37%);
+  font-weight: 700;
+  font-family: 'Outfit';
+}
+
+.instructions-section span {
+  color: hsl(13, 9%, 37%);
+  font-weight: 200;
+}
+
+.instructions-section hr {
+  width: 620px;
+  align-self: flex-start;
+  margin-left: -6px;
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+}
+
+.nutrition-section {
+  padding: 10px;
+  align-self: flex-start;
+  margin-left: 26px;
+}
+
+.nutrition-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Outfit';
+  margin-left: 30px;
+}
+
+.nutrition-section h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young Serif', serif;
+}
+
+.nutrition-description {
+  color: hsl(13, 9%, 37%);
+}
+
+.nutrition-section p {
+  color: hsl(13, 9%, 37%);
+  flex-basis: 48%;
+}
+
+.nutrition-section strong {
+  text-align: left;
+  flex-basis: 52%;
+  color:hsl(14, 45%, 36%);
+}
+
+.nutrition-section hr {
+  width: 620px;
+  align-self: flex-start;
+  margin-left: -6px;
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  margin-top: -6px;
+}
+
+#first-nutrition-item {
+  margin-top: 20px;
+}
